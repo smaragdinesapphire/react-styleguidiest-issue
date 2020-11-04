@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import s from './Button.css';
 
 /**
- * The only true button.
+ * This is uncorrect.  
+ * a\_b\_c\_d
  */
 export default function Button({ color, size, children }) {
 	let styles = {
@@ -21,7 +22,8 @@ export default function Button({ color, size, children }) {
 
 Button.propTypes = {
 	/**
-	 * Button label.
+	 * This is correct.  
+	 * a\_b\_c\_d
 	 */
 	children: PropTypes.string.isRequired,
 	color: PropTypes.string,

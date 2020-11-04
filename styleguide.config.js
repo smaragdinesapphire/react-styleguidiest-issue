@@ -21,12 +21,21 @@ module.exports = {
 							loader: 'css-loader',
 							options: {
 								importLoaders: 1,
-								modules: true
-							}
+								modules: true,
+							},
 						},
 					],
 				},
 			],
 		},
 	},
+	sections: [
+		{
+			name: 'Bug',
+			components: 'src/components/Button.jsx',
+			sectionDepth: 1,
+			exampleMode: 'expand',
+			usageMode: 'expand',
+		},
+	],
 };
